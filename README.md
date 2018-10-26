@@ -1,37 +1,54 @@
-## Welcome to GitHub Pages
+# AnalogCounterView
 
-You can use the [editor on GitHub](https://github.com/DominatorVbN/AnalogCounterView/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+AnalogCounterView is a custom UIView.
+This is a designed show progrees with style.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+![](https://github.com/DominatorVbN/AnalogCounterView/blob/master/AnalogCounterViewDemo.gif)
 
-### Markdown
+### Prerequisites
+1. Xcode 9+
+2. ios 11.0+
+3. swift 4+
+4. Cocopods.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Installing
+### CocoaPods
 
-```markdown
-Syntax highlighted code block
+[CocoaPods](http://cocoapods.org) is a dependency manager for Cocoa projects. You can install it with the following command:
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```bash
+$ gem install cocoapods
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+> CocoaPods 1.1.0+ is required to build GradientGraphView.
 
-### Jekyll Themes
+To integrate AnalogCounterView into your Xcode project using CocoaPods, specify it in your `Podfile`:
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/DominatorVbN/AnalogCounterView/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+```ruby
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '10.0'
+use_frameworks!
 
-### Support or Contact
+target '<Your Target Name>' do
+    pod 'AnalogCounterView'
+end
+```
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Then, run the following command:
+
+```bash
+$ pod install
+```
+
+## Usage
+
+Drag A UIView into view of your view controller, assign it custom class CounterView to that view.
+![](https://github.com/DominatorVbN/AnalogCounterView/blob/master/AnalogCounterView.gif)
+
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+
+
