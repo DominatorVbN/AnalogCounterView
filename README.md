@@ -3,7 +3,7 @@
 AnalogCounterView is a custom UIView.
 This is a designed show progrees with style.
 
-![](https://github.com/DominatorVbN/AnalogCounterView/blob/master/AnalogCounterViewDemo.gif)
+![](https://github.com/DominatorVbN/AnalogCounterView/blob/master/AnalogCounterViewDemo.gif?raw=true)
 
 ### Prerequisites
 1. Xcode 9+
@@ -43,7 +43,7 @@ $ pod install
 ## Usage
 
 Drag A UIView into view of your view controller, assign it custom class CounterView to that view.
-![](https://github.com/DominatorVbN/AnalogCounterView/blob/master/AnalogCounterView.gif)
+![](https://github.com/DominatorVbN/AnalogCounterView/blob/master/AnalogCounterView.gif?raw=true)
 
 
 ## License
