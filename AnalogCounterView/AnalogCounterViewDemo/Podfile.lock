@@ -1,0 +1,16 @@
+PODS:
+  - AnalogCounterView (1.0.0)
+
+DEPENDENCIES:
+  - AnalogCounterView (from `../`)
+
+EXTERNAL SOURCES:
+  AnalogCounterView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AnalogCounterView: 1b1c88d6a3e4fe1b68afd14752202525480845fc
+
+PODFILE CHECKSUM: 3a5387f1426bed9a49daebe570c2576b4ddb5cf1
+
+COCOAPODS: 1.5.3

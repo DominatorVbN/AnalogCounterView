@@ -1,0 +1,6 @@
+framework module AnalogCounterView {
+  umbrella header "AnalogCounterView-umbrella.h"
+
+  export *
+  module * { export * }
+}
